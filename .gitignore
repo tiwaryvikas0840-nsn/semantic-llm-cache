@@ -1,0 +1,42 @@
+# Local property files
+application-local.properties
+application-dev.properties
+application-*.local.properties
+
+# API keys
+*.key
+secrets.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Maven
+target/
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+HELP.md
+.mvn/wrapper/maven-wrapper.properties
+
+# Local test data / benchmark outputs
+/data/
+/benchmarks/results/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Evaluation artifacts
+test-set-*.json
+pr-curve-data-*.csv
