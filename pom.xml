@@ -8,7 +8,7 @@
 		<version>4.1.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>vikas</groupId>
+	<groupId>com.semantic_cache</groupId>
 	<artifactId>semantic-cache</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
@@ -37,6 +37,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
+		</dependency>
+
+		<!-- Spring Data Redis + Lettuce (default client). Auto-configures the
+		     connection factory and an Actuator Redis health indicator. -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
 		</dependency>
 
 		<dependency>
